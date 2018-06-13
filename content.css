@@ -1,0 +1,89 @@
+/*	This is the CSS for the content section.  This only applies to the
+	content that in enclosed within the <article> tags. */
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	color: #999;
+}
+
+article {
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+article p {
+
+}
+
+article h1 {
+	text-align: center;
+}
+
+article h2 {
+
+}
+
+article h3 {
+	margin: 0;
+}
+
+.TextBlock {
+	border-style: hidden;
+	border-width: 1px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 2px #8c8c8c;
+	padding: 10px;
+}
+
+/* -- Index Specific -- */
+article div#FeaturedVideo {
+	text-align: center;	
+}
+
+article dl#blurb {
+	margin: 0;
+}
+
+article dt#blurb {
+	
+}
+
+article dd#blurb {
+
+}
+
+/* -- Team Specific -- */
+.BioBox-Left {
+	width: 100%;
+	display: block;
+	text-align: left;
+}
+
+.BioBox-Right {
+	width: 100%;
+	display: block;
+	text-align: right;
+}
+
+.BioPhoto {
+	width: 100px;
+	display: inline-block;
+}
+
+.BioText {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	width: 40%;
+}

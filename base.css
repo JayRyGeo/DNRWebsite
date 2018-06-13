@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	background-color: #000;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+article p {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-image: url("img/banner.jpg");
+	background-position: bottom;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 36.5px;
+	height: 450px;
+}
+
+.headerDivider {
+	height: 2px;
+	background-color: #000;
+}
+
+.contentBG {
+	background-color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* -- Header Properties -- */
+
+div#Header {
+	text-align: center;
+
+}
+
+.NavBlock{
+	display: inline-block;
+	width: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Courier;
+	color: #004890;
+}
+
+.mediaBlock {
+	display: inline-block;
+	width: 50px;
+	color: #FFFFFF;
+}
+
+nav {
+	display: block;
+	position: static;
+	margin-top: -120px;
+	background-color: rgab(0, 0, 0, 0);
+	transition: background-color 1s;
+}
+
+.stickyNav {
+	top: 0;
+	position: fixed;
+	margin-top: 0px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 1);
+	transition: background-color 1s;
+}
+
+nav a {
+	color: #004890;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+nav a:visited{
+	color: #004890;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #004890;
+	opacity: 1;
+	text-decoration: none;
+}
+
+nav a.active_link {
+	color: #004890;
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* -- Footer Properties -- */
+
+.DivFooter { 
+	text-align: center;
+}
+
+.DivFooter p {
+	margin: 0;
+}
+
+.DivFooter ul {
+	margin: 0;
+}
+
+div#UpperFooter{
+	background-color: #004890;
+	color: #FFFFFF;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div#LowerFooter{
+	background-color: #000000;
+	color: #FFFFFF;
+	margin: 0;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+
+ul#FooterNameList li { 
+	display: inline; 
+}
