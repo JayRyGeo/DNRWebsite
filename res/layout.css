@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+@font-face{
+	font-family: Sunflower;
+	src: url("fonts/Sunflower-Light.ttf") format("truetype");
+}
+
+/* -- HTML --*/
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* -- Header -- */
+
+header {
+	background-image: url("../img/banner.jpg");
+	background-position: bottom;
+	background-size: cover;
+	height: 500px;
+}
+
+#LogoBanner {
+	height: 0;
+	text-align: center;
+	padding: 0;
+}
+
+.LogoBannerText {
+	font-family: Sunflower, sans-serif;
+	font-style: italic;
+	color: white;
+	line-height: 50px;
+	vertical-align: bottom;
+	width: 150px;
+}
+
+#FloatingNav {
+	height: 50px;
+	padding: 5px 0;
+	background: linear-gradient(to right, black, #004890, black);
+	/*background-color: navy;*/
+	position: static;
+}
+
+.NavList {
+	display: block;
+	float: center;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	height: 50px;
+}
+
+.NavListItem {
+	list-style: none;
+	margin-right: 10px;
+	display: inline-block;
+	font-family: Sunflower, sans-serif;
+	font-size: 1.3em;
+	color: white;
+	line-height: 50px;
+	vertical-align: bottom;
+}
+
+nav > ul > li > a#active_link, nav > ul > li > a:hover {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: underline;
+}
+
+nav > ul > li > a:visited, nav > ul > li > a {
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+}
+
+/* -- Content Area -- */
+
+#MainContentArea {
+	margin: 20px 5%;
+}
+
+SectionHeader {
+	font: italic small-caps bold 3em/3em Sunflower, sans-serif;
+}
+
+#RecentRaceGallery, #UpcomingEvents, #NewsUpdates {
+	margin: 0 3%;
+	text-align: center;
+}
+
+.GalleryRow {
+	display: block;
+}
+
+.GalleryColumn {
+	display: inline-block;
+	max-width: 33%;
+	max-height: auto;
+}
+
+.GalleryColumn > img {
+	height: 100%;
+	width: 100%;
+}
+
+.UpcomingEvent {
+	border-bottom: solid 1px black;
+	text-align: left;
+	font-family: Sunflower, sans-serif;
+	font-variant: small-caps;
+}
+
+.UpcomingEvent dt {
+	font-style: italic;
+	font-size: 2em;
+}
+
+.UpcomingEvent dd {
+	font-style: normal;
+	font-size: 1em;
+}
+
+/* -- Footer -- */
+
+#PreFooter {
+	background-color: #004890;
+	display: block;
+	text-align: center;
+	padding: 15px 0 5px 0;
+}
+
+.SocialMediaBox {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#NewsUpdates article {
+	text-align: left;
+}
+
+footer {
+	background: linear-gradient(to bottom, #004890, black);
+	color: white;
+	font: normal small-caps bold 1em/3em Sunflower, sans-serif;
+	text-align: center;
+	padding: 15px 0;
+}
+
